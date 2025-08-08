@@ -64,7 +64,7 @@ nav {
 
 .barrapesquisa input {
     position: relative;
-    top: 5.5px;
+    top: 5px;
     border: 1px solid gray;
     padding: 9px;
     border-color: #737376;
@@ -74,7 +74,7 @@ nav {
 .barrapesquisa i {
     border: 1px solid gray;
     border-color: #737376;
-    padding: 8.3px;
+    padding: 8.4px;
     position: relative;
     right: 4px;
     top: 5px;
@@ -329,3 +329,4 @@ main {
     right: 25px;
 
 } 
+
