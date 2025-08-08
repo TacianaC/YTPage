@@ -1,0 +1,330 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menudireito .camera {
+    font-size: 21px;
+    position: relative;
+    bottom: 2px;
+    right: 60px;
+}
+
+.menudireito .sininho {
+    font-size: 22px;
+    position: relative;
+    bottom: 2px;
+    right: 40px;
+}
+
+.menudireito img {
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+
+.menuesquerda {
+    display: flex;
+    align-items: center;
+}
+
+.menuesquerda .menub {
+    font-size: 25px;
+    position: relative;
+    top: 3px;
+    left: 20px;
+}
+
+.menuesquerda .logoyt {
+    font-size: 22px;
+    position: relative;
+    top: 3px;
+    left: 65px;
+}
+
+.menuesquerda .icone {
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    left: 70px;
+}
+
+.barrapesquisa input {
+    position: relative;
+    top: 5.5px;
+    border: 1px solid gray;
+    padding: 9px;
+    border-color: #737376;
+    width: 500px;
+}
+
+.barrapesquisa i {
+    border: 1px solid gray;
+    border-color: #737376;
+    padding: 8.4px;
+    position: relative;
+    right: 4px;
+    top: 5px;
+    border-left: none;
+    background-color: #8a8a8d4c;
+}
+
+.telayoutube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telayoutube .telayoutubea {
+    width: 1400px;
+    height: 800px;
+}
+
+main img {
+   margin: 50px;
+}
+
+.titulovideo h1 {
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+    right: 240px;
+}
+
+.nomecanal img {
+    border-radius: 30px;
+    position: relative;
+    bottom: 60px;
+    right: 680px;
+    width: 60px;
+    height: 60px;
+}
+
+.nomecanal h4 {
+    font-size: 15px;
+    position: relative;
+    bottom: 164px;
+    right: 560px;
+}
+
+.nomecanal p {
+    position: relative;
+    bottom: 163px;
+    right: 560px;
+    color: #454547;
+}
+
+.botao button {
+    text-transform: uppercase;
+    font-size: 15px;
+    position: relative;
+    bottom: 200px;
+    right: 380px;
+    color: white;
+    background-color:#CC0000;
+    border: none;
+    padding: 9px 35px;
+}
+
+.botoeslike .like {
+    font-size: 21px;
+    position: relative;
+    bottom: 232px;
+    right: 200px;
+}
+
+.botoeslike .likes {
+    position: relative;
+    bottom: 250px;
+    right: 165px;
+}
+
+.botoeslike .deslike {
+    font-size: 21px;
+    position: relative;
+    bottom: 269px;
+    right: 100px;
+}
+
+.botoeslike .deslikes {
+    position: relative;
+    bottom: 290px;
+    right: 64px;
+}
+
+.botoeslike .share {
+    font-size: 21px;
+    position: relative;
+    bottom: 309px;
+    left: 42px;
+}
+
+.botoeslike .compartilhar {
+    position: relative;
+    bottom: 330px;
+    left: 72px;
+}
+
+.botoeslike .download {
+    font-size: 21px;
+    position: relative;
+    bottom: 353px;
+    left: 190px;
+}
+
+.botoeslike .baixar {
+    position: relative;
+    bottom: 370px;
+    left: 225px;
+}
+
+.visualizacao h4 {
+    position: relative;
+    bottom: 310px;
+    right: 475px;
+}
+
+span {
+    margin-left: 5px;
+}
+
+.descricao p {
+    position: relative;
+    bottom: 300px;
+    right: 415px;
+    color: #454547;
+}
+
+main {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.videoslateral .box1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+}
+
+.videoslateral .box2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 90px;
+}
+
+.videoslateral .box3 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 170px;
+}
+
+.videoslateral .box4 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 250px;
+}
+
+.videoslateral .box5 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 330px;
+}
+
+.videoslateral .box6 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 410px;
+}
+
+.videoslateral .box7 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 490px;
+}
+
+.videoslateral .box8 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 570px;
+}
+
+.videoslateral .box9 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 650px;
+}
+
+.videoslateral {
+    position: relative;
+    bottom: 1400px;
+    left: 980px;
+}
+
+.videoslateral .descricaovideo1 {
+    position: relative;
+    right: 25px;
+} 
+
+.videoslateral .descricaovideo2 {
+    position: relative;
+    right: 25px;
+} 
+
+.videoslateral .descricaovideo3 {
+    position: relative;
+    right: 25px;
+} 
+
+.videoslateral .descricaovideo4 {
+    position: relative;
+    right: 25px;
+} 
+
+.videoslateral .descricaovideo5 {
+    position: relative;
+    right: 25px;
+} 
+
+.videoslateral .descricaovideo6 {
+    position: relative;
+    right: 25px;
+} 
+
+.videoslateral .descricaovideo7 {
+    position: relative;
+    right: 25px;
+} 
+
+.videoslateral .descricaovideo8 {
+    position: relative;
+    right: 25px;
+} 
+
+.videoslateral .descricaovideo9 {
+    position: relative;
+    right: 25px;
+} 
